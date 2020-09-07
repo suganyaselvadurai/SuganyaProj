@@ -19,12 +19,7 @@ public class GsonTester {
         try {
 
             WeathMain weathMain = tester.readJSON();
-            List<Location> locations=weathMain.getList().stream().filter(p ->{
-                if(p.getName().startsWith("T")){
-                    logger.info("name start with T::"+p.getName());
-                    return true;
-                }return false;
-            }).collect(Collectors.<Location>toList());
+            List<Location> locations=weathMain.getList().stream().filter(p ->p.getName().startsWith("T")).collect(Collectors.<Location>toList());
             logger.info("count of name start with T:: "+locations.size());
 
 
