@@ -2,6 +2,8 @@ import java.io.*;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 import com.google.gson.Gson;
@@ -17,12 +19,14 @@ public class GsonTester {
         try {
 
             WeathMain weathMain = tester.readJSON();
-            ArrayList<Location> locations= (ArrayList)weathMain.getList();
-            for (Location location:locations){
-                if(location.getName().startsWith("T")){
-                    logger.info("weather Name=="+location.getName());
-                }
-            }
+            List<Location> locations=weathMain.getList().stream().filter(p ->{
+                if(p.getName().startsWith("T")){
+                    logger.info("name start with T::"+p.getName());
+                    return true;
+                }return false;
+            }).collect(Collectors.<Location>toList());
+            logger.info("count of name start with T:: "+locations.size());
+
 
         }
         catch(FileNotFoundException e) {

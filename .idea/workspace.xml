@@ -10,34 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd8926f4-0198-460e-958d-2cce9dc170c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fi.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openweathermap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clouds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Coord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GsonTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeathMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suganyaProjNew.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suganyaProjNew.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suganyaProjNew.userlibraries" afterDir="false" />
+    <list default="true" id="fd8926f4-0198-460e-958d-2cce9dc170c8" name="Default Changelist" comment="json processing and retrieve name start with T">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GsonTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GsonTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +59,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="36" />
-    <option name="width" value="1400" />
-    <option name="height" value="794" />
   </component>
   <component name="ProjectId" id="1hBTGwKdDkUDQMWO5NAjaCvjJlM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -158,6 +127,14 @@
       <workItem from="1599420746940" duration="2532000" />
       <workItem from="1599423718690" duration="17415000" />
     </task>
+    <task id="LOCAL-00001" summary="json processing and retrieve name start with T">
+      <created>1599486247723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599486247723</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -181,50 +158,48 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="json processing and retrieve name start with T" />
+    <option name="LAST_COMMIT_MESSAGE" value="json processing and retrieve name start with T" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="944" height="159" key="GridCell.Tab.0.bottom" timestamp="1599485061358">
+    <state width="944" height="159" key="GridCell.Tab.0.bottom" timestamp="1599486548932">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="944" height="159" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1599485061358" />
-    <state width="944" height="159" key="GridCell.Tab.0.center" timestamp="1599485061358">
+    <state width="944" height="159" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1599486548932" />
+    <state width="944" height="159" key="GridCell.Tab.0.center" timestamp="1599486548932">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="944" height="159" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1599485061358" />
-    <state width="944" height="159" key="GridCell.Tab.0.left" timestamp="1599485061358">
+    <state width="944" height="159" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1599486548932" />
+    <state width="944" height="159" key="GridCell.Tab.0.left" timestamp="1599486548931">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="944" height="159" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1599485061358" />
-    <state width="944" height="159" key="GridCell.Tab.0.right" timestamp="1599485061358">
+    <state width="944" height="159" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1599486548931" />
+    <state width="944" height="159" key="GridCell.Tab.0.right" timestamp="1599486548932">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="944" height="159" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1599485061358" />
+    <state width="944" height="159" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1599486548932" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1599483890613">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1024.738@0.0.1024.738" timestamp="1599483890613" />
+    <state x="104" y="101" key="Vcs.Push.Dialog.v2" timestamp="1599486480969">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="104" y="101" key="Vcs.Push.Dialog.v2/0.0.1024.738@0.0.1024.738" timestamp="1599486480969" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GsonTester.java</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GsonTester.java</url>
-          <line>66</line>
+          <line>70</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GsonTester.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GsonTester.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
